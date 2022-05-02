@@ -5,11 +5,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pel-css/reset.css">
+    <link rel="stylesheet" href="pel-css/style.css">
+    <link rel="stylesheet" href="pel-css/fonts.css"> 
     <title>Pelaez - Web Design</title>
 </head>
 
 <body>
+    <div class="principal">
+        <header>
+            <div class="header-inside">
+                 <div class="portfa-text">
+                     <h1>Portifolio</h1>
+                     <h3>Web Designer</h3>
+                 </div><!-- portfa-text End -->
 
+                 <div class="portfa-author">                     
+                    <img src="pel-img/photo-portifa-autor.jpg" width="100px" height="100px" alt="Foto Marcos Pelaez Web Designer">
+                    <div class="portfa-info">
+                        <h3>Marcos Pelaez</h3>
+                        <p><a href="mailto:marcos.smarketing@gmail.com">marcos.smarketing@gmail.com</a></p>
+                    </div>
+                 </div><!-- portfa-author End -->
+
+                 <div class="portfa-socials">
+                     <a href="https://www.linkedin.com/in/pelaezmarcos/" target="blank"><img id="linkedin" src="pel-img/linkedin-bt.png" alt="Linkedin" onmouseover="chengeLinkedinOver();" onmouseout="backNormalLinkedin();" /></a>
+                     <a href="https://www.facebook.com/webdesignmarcos/" target="blank"><img id="facebook" src="pel-img/facebook-bt.png" alt="Facebook" onmouseover="chengeFacebookOver();" onmouseout="backNormalfacebook();" /></a>                     
+                 </div><!-- portfa-socials End -->
+
+            </div> <!--header-inside end-->
+        </header> <!-- Header End -->
+
+        <section class="portfolio-desktop"><!--Only for min-width=1300px - desktop-->
+            <h2>Trabalhos</h2><!--portfolio title-->
+            <div class="templates">
+                <div class="template-1">
+                    <div class="titles">
+                        <div class="kind-template">HTML</div>
+                        <h4 class="title-one">Modelo Salgados</h4>
+                    </div>
+                    <div class="image">
+                        <img class="img-1" src="pel-img/site-salgados 1.png" alt="visual site salgados" />
+                    </div>                    
+                    <a href="#" target="blank"><button>VISITAR</button></a>                 
+                </div><!--template-1 end-->
+                <div class="template-1 template-2">
+                    <div class="titles">
+                        <div class="kind-template">HTML</div>
+                        <h4 class="title-one">Modelo Viajem</h4>
+                    </div>
+                    <div class="image">
+                        <img class="img-2" src="pel-img/site-viagem 1.png" alt="visual site viajem" />
+                    </div>                    
+                    <a href="#" target="blank"><button>VISITAR</button></a>                 
+                </div><!--another template-1 end--> 
+            </div>
+        </section><!--portfolio desktop end-->
+
+        <section class="portfolio">
+            <h2>Trabalhos</h2><!--portfolio title-->
+            <div class="template-1">
+                <div class="titles">
+                    <div class="kind-template">HTML</div>
+                    <h4 class="title-one">Modelo Salgados</h4>
+                </div>
+                <img src="pel-img/logo-salgado-portfa.png" alt="Logotipo site O fino salgado!" />
+                <a href="#" target="blank"><button>VISITAR</button></a>                 
+            </div><!--template-1 end-->
+            <div class="template-1 template-2">
+                <div class="titles">
+                    <div class="kind-template">HTML</div>
+                    <h4 class="title-one">Modelo Viajem</h4>
+                </div>
+                <img src="pel-img/logo-viajem-portfa.png" alt="Logotipo site XYZ Viajem!" />
+                <a href="#" target="blank"><button>VISITAR</button></a>                 
+            </div><!--another template-1 end-->       
+        </section><!--portfoolio section end-->
+        <section class="about">
+            <h2>Sobre</h2><!--Sobre(about) title-->
+            <div class="about-professional">
+                <h4>Marcos Pelaez - Web Designer</h4>
+                <p>Na profissão desde 2002, apaixonado por Design e Programação Web!</p>
+                <p>Baixarel em Sistemas de Informação com vários cursos na área de Design Web.</p>
+                <p>Atualmente estou como autônomo, tenho habilidades em HTML,CSS, JAVASCRIPT, PHP e Wordpress.</p>
+                <p>Criação de sites e outras soluções Design Web. Estou aberto para projetos na área! </p>
+                <p>Gostaria de ver meu currículo?  Clique <a class="curriculum" href="curriculo-especial.pdf" target="blank">AQUI!</a></p>
+            </div>
+        </section><!--about section end-->
+        <section class="contato">
+            <h2>Contato</h2><!--Contact title-->
+            <form action="#" class="form-contato">
+                <p>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="nome" />
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p>
+                    <label for="mensage">Mensagem:</label>
+                    <textarea name="mensage" id="mensage" cols="30" rows="10"></textarea>
+                </p>
+                <p><button type="submit" name="enviar">ENVIAR</button></p>
+            </form>
+        </section>
+        <footer>
+            <p>Portfolio Marcos Pelaez - Web Designer</p>
+            <p><a href="mailto:marcos.smarketing@gmail.com">marcos.smarketing@gmail.com</a></p>
+            <div class="portfa-socials-footer">
+                <a href="https://www.linkedin.com/in/pelaezmarcos/" target="blank"><img id="linkedin-footer" src="pel-img/linkedin-bt.png" alt="Linkedin" onmouseover="chengeLinkedinOverFooter();" onmouseout="backNormalLinkedinFooter();" /></a>
+                <a href="https://www.facebook.com/webdesignmarcos/" target="blank"><img id="facebook-footer" src="pel-img/facebook-bt.png" alt="Facebook" onmouseover="chengeFacebookOverFooter();" onmouseout="backNormalfacebookFooter();" /></a>                     
+            </div><!-- portfa-socials End -->
+        </footer>
+    </div><!--principal end-->
+
+    <script src="pel-js/script.js"></script>
 </body>
 
 </html>

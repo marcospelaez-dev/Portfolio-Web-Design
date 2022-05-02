@@ -1,0 +1,31 @@
+html{ font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../pel-fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-bold;
+    src: url(../pel-fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-light;
+    src: url(../pel-fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../pel-fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold;
+    src: url(../pel-fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../pel-fonts/Roboto-Thin.ttf);
+}
