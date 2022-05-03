@@ -1,0 +1,37 @@
+
+html{ font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+@font-face{
+    font-family: Aclonica;
+    src: url(../salg-fonts/Aclonica-Regular.ttf);
+}
+
+@font-face{
+    font-family: EBGaramond;
+    src: url(../salg-fonts/EBGaramond-Regular.ttf);
+}
+@font-face{
+    font-family: EBGaramondBold;
+    src: url(../salg-fonts/EBGaramond-Bold.ttf);
+}
+@font-face{
+    font-family: EBGaramondMedium;
+    src: url(../salg-fonts/EBGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../salg-fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(../salg-fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../salg-fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoThin;
+    src: url(../salg-fonts/Roboto-Thin.ttf);
+}
