@@ -1,0 +1,618 @@
+/*
+* Template for party food - "O fino Salgado"
+* Author: Marcos Pelaez - Web Designer
+* Developed with mobile first
+* Date: 2022-03-23
+*/
+
+/* The Geral container of the site */
+.principal{
+    max-width: 1024px;
+    margin: 0 auto;    
+}
+
+.logo-text-2{
+    display: none;
+}
+.logo-text{
+    display: block;
+}
+
+/* Menu mobile and tablet (mobile) */
+.menu-1, .malha-menu, .mobile-menu{
+    display: block;
+}
+.menu-2{
+    display: none;
+}
+.menu-1{
+    width: 80%;
+    height: 80%;
+    right: 0;
+    background-color: #ffb87d;
+    z-index: 2000;
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+    border-radius: 8px;
+}
+.menu-1 li{
+    margin: 50px 0 50px 0;
+    border-bottom: 1px solid #c48d60;
+}
+.menu-1 li a{
+    font-family: Roboto;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.menu-1 li a:hover{
+    color: #80533e;
+}
+.malha-menu{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #000;
+    opacity: 65%;
+}
+
+/* open an close menu mobile */
+
+/* closed pattern menu  */
+.menu-close{
+    right: -100%;
+    transition: 1s;
+}
+.menu-open{
+    right: 0;
+    transition: 1s;
+}
+
+/* HEADER AREA */
+
+header{
+    box-shadow: 0 1px 10px rgb(173, 173, 173);
+}
+
+.logo-text{
+    text-align: center;
+    font: 14px Roboto ;
+    color: #5f5f5f;
+    padding-bottom: 8px;
+}
+
+.head-div{
+    display: flex;
+}
+.logo{
+    flex-grow: 2;
+}
+.logo img{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.mobile-menu{
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* PRESETANTION SECTION */
+
+.presentation{
+    margin-top: 10px;
+}
+
+.presentation-img{
+    width: 200px;
+}
+
+.foto-presentation{
+    padding-top: 15px;
+    padding-right: 30px;
+    text-align: end;
+}
+
+.text-presentation{
+    margin-top: 20px;
+}
+.text-presentation p:nth-child(1){
+    font-family: EBGaramond;
+    font-size: 22px;
+    color: #444444;
+    padding-left: 30px;
+}
+.text-presentation p:nth-child(2), p:nth-child(3){
+    margin-top: 10px;
+    padding-left: 30px;
+    font-family: EBGaramond;
+    font-size: 30px;
+    line-height: 1.3;
+}
+.description-presentation{
+    margin: 0;
+    padding: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #323232;
+    line-height: 1.8;
+}
+.button-presentation{
+    text-align: end;
+    padding-right: 38px;
+}
+.learn-more{
+    width: 176px;
+    padding: 20px;
+    background-color: #cc9364;
+    border: 0;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #242424;
+    box-shadow: 0 2px 10px rgb(136, 136, 136);
+}
+.learn-more:hover{
+    background-color: #805C3E;
+    color: #ffffff;
+    transition: 1s;
+}
+
+/* Newsletter Section */
+
+.img-coffe-small{
+    display: block;
+}
+.img-coffe-large{
+    display: none;
+}
+.news{
+    margin-top: 20px;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: #ffb87d;
+}
+.news-content{
+    background-color: #805c3e;
+}
+.coffee{
+    display: flex;
+}
+.img-coffee{
+    padding: 10px;
+}
+.text-coffee{
+    margin-top: 20px;
+}
+.text-coffee p{
+    font-family: RobotoThin;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+    padding: 2px 2px 5px 10px;
+}
+.newsletter{
+    padding: 0px 0 30px 0;
+}
+.newsletter p{
+    font-family: RobotoThin;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.newsletter form input{
+    width: 200px;
+    height: 35px;
+    margin-left: 25px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffd7b7;
+}
+.newsletter button{
+    margin-left: 30px;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffb87d;
+    color: #5f5f5f;
+    box-shadow: 0 2px 10px #444444;
+}
+.newsletter button:hover{
+    background-color: #cc9364;
+    color: #ffffff;
+    transition: .5s;
+}
+
+/* PORTIFA SECTION */
+.portifa{
+    margin-top: 20px;
+}
+.foto-portifa{
+    margin-left: 20px;
+}
+.foto-portifa img{
+    width: 90%;
+}
+.action-portifa p{
+    font-family: EBGaramond;
+    font-size: 30px;
+    color: #000;
+    padding: 8%;
+    line-height: 1.3;
+}
+.portifa-link{
+    text-align: center;
+}
+.portifa-link a button{
+    width: 80%;
+    padding: 5px;
+    font-family: RobotoThin;
+    font-size: 30px;
+    color: #000;
+    background-color: #CC9364;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 10px rgb(156, 156, 156);
+}
+.portifa-link a button:hover{
+    background-color: #805C3E;
+    color: #ffffff;
+    transition: .6s;
+}
+
+/* Footer */
+
+.salg-footer{
+    margin: 30px 0 20px 0;
+    padding: 10px;
+    border-top: 1px solid #ffb87d;
+    border-bottom: 1px solid #ffb87d;
+    text-align: center;
+}
+
+.social-icons{
+    margin-top: 20px;
+}
+
+.social-icons a{
+    margin: 0 10px 0 10px;
+}
+.salg-copy{
+    font-family: Roboto;
+    color: #707070;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+}
+.salg-copy-large{
+    display: none;
+}
+.salg-copy p:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.salg-copy p:nth-child(2){
+    font-size: 13px;
+}
+.logo-footer{
+    margin: 20px;
+    padding: 10px;
+}
+.nav-footer{
+    margin-bottom: 20px;
+}
+.nav-footer a{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #898989;
+    padding: 15px;
+}
+.nav-footer a:hover{
+    text-decoration: none;
+    color: #ffb87d;   
+}
+.nav-footer li{
+    margin: 30px;
+}
+/* mobile first end */
+
+/* Breack point's tablet */
+
+@media (min-width: 744px){
+    
+    /* Menu mobile and tablet (tablet) */
+    .menu-1 li a{
+        font-size: 25px;
+    }
+    .logo{
+        padding-left: 10%;
+    }
+    .logo-text{
+        display: none;
+    }
+    .logo img{
+        width: 40%;
+        padding-top: 10px;
+    }
+    .logo-text-2{
+        display: block;
+        font-family: Roboto;
+        font-size: 18px;
+        color: #5f5f5f;
+        margin-left: -25px;
+        margin-bottom: 20px;
+    }
+    .mobile-menu{
+        padding-top: 6%;
+    }
+    .mobile-menu img{
+        width: 50px;
+        height: 50px;
+    }
+    .text-presentation {
+        margin-top: -140px;
+        padding-left: 64px;
+    }
+    .presentation-img {
+        width: 307px;
+        padding-right: 50px;
+    }
+    .description-presentation{
+        padding: 20px;
+        margin-left: 380px;
+        margin-top: -175px;
+    }
+    .button-presentation {
+        text-align: end;
+        padding-right: 95px;
+    }
+
+    /* news section */
+    .coffee{
+        justify-content: space-between;
+    }
+    .img-coffee{
+        text-align: center;
+        width: 30%;
+        padding-top: 30px;
+    }
+    .text-coffee{
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .newsletter {
+        padding: 20px;
+        text-align: center;
+        margin: -30px;
+    }
+    .newsletter p{
+        margin-bottom: 30px;
+    }
+    .newsletter form{
+        margin-bottom: 20px;
+    }
+
+    /* Portifa Section */
+    .foto-portifa img {
+        width: 70%;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .action-portifa p{
+        padding: 30px 30px 30px 40px;
+    }
+    .portifa-link {
+        text-align: left;
+        padding-left: 35px;
+    }
+    .portifa-link a button {
+        width: 20%;
+        padding: 18px;
+        font-size: 25px;
+        font-weight: bolder;
+        color: rgb(59, 59, 59);
+    }
+}
+/* tablet end */
+
+/* Breack point's Desktop */
+@media (min-width: 1024px){
+
+    .menu-1, .malha-menu, .mobile-menu{
+        display: none;
+    }
+    .menu-2{
+        display: block;
+        margin-top:50px;
+    }
+    .menu-2 ul li{
+        display: inline;
+        padding-right: 30px;
+    }
+    .menu-2 ul li a{
+        font-family: Roboto;
+        font-size: 20px;
+        text-decoration: none;
+        color: #505050;
+    }
+    .menu-2 ul li a:hover{
+        color: #FFB87D;
+        transition: .5s;
+    }
+    .logo{
+        padding: 0;
+    }
+    .head-div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo{
+        width: 50%;
+    }
+    .logo img{
+        width: 50%;
+        padding-left: 35px;
+    }
+    .logo-text-2 {
+        margin-left: 20px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+    .presentation-img {
+        width: 580px;
+    }
+    .text-presentation{
+        margin-top: -350px;
+    }
+    .text-presentation p:nth-child(1){
+        font-size: 32px;
+    }
+    .text-presentation p:nth-child(2), .text-presentation p:nth-child(3){
+        font-size: 50px;
+    }
+    .description-presentation {
+        padding: 228px 228px 0 228px;
+        margin-left: -130px;
+        margin-top: -209px;
+        font-size: 18px;
+    }
+    .button-presentation{
+        text-align: left;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-right: 0;
+        padding-left: 98px;
+    }
+    
+    /* news Section */
+    .news{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+    }
+    .news-content{
+        display: flex;
+        width: 100%;
+        background-image: url("../salg-img/fundo-news.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #ffffff;
+    }
+
+    .text-coffee p{
+        color: #000;
+    }
+    .img-coffe-small{
+        display: none;
+    }
+    .img-coffe-large{
+        display: block;
+        width: 250px;
+        padding-left: 10px;
+    }
+    .coffee{
+        flex-grow: 1;
+        flex-direction: column;
+        padding-left: 6%;
+    }
+    .newsletter{
+        flex-grow: 1;
+        align-self: center;
+    }
+    .newsletter p{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .text-coffee{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding-right: 25%;
+        align-items: flex-start;
+    }
+    .text-coffee p{
+        width: 100%;
+        font-size: 25px;
+        color: #000;
+        font-weight: bolder;
+        text-align: center;
+        padding-right: 90px;
+    }
+    .img-coffee{
+        width: 100%;
+    }
+    .newsletter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter form input {
+        width: 300px;
+        height: 50px;
+        background-color: #ffffff;
+        margin-right: 10%;
+    }
+    .newsletter button {
+        width: 25%;
+        padding: 18px;
+        border-radius: 11px;
+        margin: 0;     
+        margin-top: 35px;
+        font-size: 20px;
+    }
+
+    /* Portifa Section */
+    .foto-portifa img{
+        width: 450px;
+    }
+    .portifa{
+        display: flex;
+    }
+    .action-portifa p {
+        padding: 30px 100px 30px 60px;
+        font-size: 35px;
+    }
+    .portifa-link {
+        text-align: right;
+        margin-right: 116px;
+    }
+    .portifa-link a button {
+        width: 40%;
+        font-size: 30px;
+    }
+
+    /* Footer */
+    .salg-footer{
+        display: flex;
+    }
+    .salg-copy{
+        display: none;
+    }
+    .salg-copy-large{
+        display: block;
+        font-size: 14px;
+    }
+    .salg-copy-large p:nth-child(1){
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .logo-footer img{
+        width: 250px;
+    }
+    .social-icons, .logo-footer, .nav-footer{
+        flex-grow: 1;
+    }
+    .social-icons {
+        margin-top: 95px;
+    }
+    
+}
+
+

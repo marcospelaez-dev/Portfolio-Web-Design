@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="salg-styles/style.css">
+    <link rel="stylesheet" href="salg-styles/reset.css">
+    <link rel="stylesheet" href="salg-styles/fonts.css">
+    <title>O Fino Salgado</title>
+</head>
+<body> 
+    <!-- Mobile and tablet menu -->
+        <nav id="menu-1" class="menu-1 menu-close">
+            <img src="salg-img/bt-close.png" alt="Fechar Menu" width="30px" height="30px" onclick="closeMenu()"/>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    <div class="principal">
+       <div id="malha-menu" class="malha-menu menu-close"></div>
+        <header>
+            <div class="head-div">
+                      <!--.logo -->
+                <div class="logo">
+                    <img src="salg-img/logo-salg-mobile-158-70.png" alt="logotipo" />
+                    <!-- Business Description text tablet and desktop -->
+                    <div class="logo-text-2">Salgadinhos finos para festas e eventos</div>
+                </div>
+                      <!--Mobile menu botton-->
+                <div class="mobile-menu">
+                    <img src="salg-img/mobile-menu.png" alt="Botão de Menu" width="40px" height="40px" onclick="openMenu()" />
+                </div>
+                <nav class="menu-2">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Portifólio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--.head-div end-->
+                 <!-- Business Description text centralized mobile -->
+            <div class="logo-text">Salgadinhos finos para festas e eventos</div>
+        </header>
+
+        <section class="presentation">
+                 <!-- Chic Sweet Foto -->
+            <div class="foto-presentation">
+                <img class="presentation-img" src="salg-img/foto-presentation.jpg" alt="comida para festas!" />
+            </div>
+                 <!-- Marketing large text -->
+            <div class="text-presentation">
+                <p>O que nós fazemos?</p>
+                <p>Fina e agradável<br/> Degustação <br/> Para sua festa</p>
+                <p>Afinal,<br/> O prazer dos convidados<br/> Não precisa ser<br/> Trivial!</p>
+            </div>
+                 <!-- Description small text -->
+            <div class="description-presentation">
+                <p>Delícias para festas, bem elaboradas por nossos mestres e confeiteiros com a qualidade voltada para os mais exigentes paladares.</p>
+            </div>
+                 <!-- Learn more button -->
+            <div class="button-presentation">
+                <button class="learn-more" type="button">SAIBA MAIS</button>
+            </div>
+        </section> <!--.presentation section end-->
+
+        <!--Newsletter Section-->
+        <section class="news">
+            <div class="news-content">
+                <div class="coffee">
+                    <div class="img-coffee">
+                        <img class="img-coffe-small" src="salg-img/cafesinho-small.png" alt="xícara de café" />
+                        <img src="salg-img/cafesinho-large.png" alt="xícara de café" class="img-coffe-large">
+                    </div>
+                    <div class="text-coffee">
+                        <p>Tome um cafezinho!</p>
+                        <p>e deguste dicas incríveis e</p>
+                        <p>saborosas!</p>
+                    </div>                
+                </div><!--.coffee end-->
+                <div class="newsletter">
+                    <p>Se inscreva na nossa Newsletter</p>
+                    <form action="#">
+                        <input type="text" placeholder="Seu melhor E-mail!">
+                        <button type="submit" value="Enviar">ENVIAR</button>
+                    </form>
+                </div><!--.newsletter end-->
+            </div><!--news content end-->
+        </section> <!--Newsletter section end-->
+
+        <section class="portifa">
+            <div class="foto-portifa"><img src="salg-img/foto-portifa.jpg" alt="foto mesa elegante" /></div>
+            <div class="action-portifa">
+                <p>Veja nosso Portifólio e <br/> Saiba que sua festa pode ficar deliciosa e sofisticada!</p>
+                <div class="portifa-link">
+                    <a href="#">
+                        <button type="button">Portifólio</button>
+                    </a>
+                </div> <!--.portifa-link end-->
+                
+            </div> <!--.action-portifa end-->
+        </section><!--.portifa end-->
+
+        <footer class="salg-footer">
+            <div class="social-icons">
+                <a href="#"><img src="salg-img/facebook.png" alt="Facebook" width="35px" height="35px"></a>
+                <a href="#"><img src="salg-img/Instagram.png" alt="Instagram" width="40px" height="40px"></a>
+                <a href="#"><img src="salg-img/Pinterest.png" alt="Pinterest" width="40px" height="40px"></a>
+            </div><!-- .salg-footer end-->
+            <div class="salg-copy">
+                <p>&copy;</p>
+                <p>Copyright - Todos os direitos reservados para Fino Salgado!</p>
+            </div><!-- .salg-copy end-->
+            <div class="logo-footer">
+                <img src="salg-img/logo-salg-mobile-158-70.png" alt="Logotipo O Fino Salgado">
+                <div class="salg-copy-large">
+                    <p>&copy;</p>
+                    <p>Copyright - Todos os direitos reservados para Fino Salgado!</p>
+                </div><!-- .salg-copy end-->
+            </div><!--.logo-footer end-->
+            <div class="nav-footer">
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Portifólio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div><!-- .nav-footer end-->
+        </footer>
+    </div> <!--.principal end-->
+    
+    <script type="text/javascript" src="salg-scripts/script.js"></script>
+</body>
+</html>
