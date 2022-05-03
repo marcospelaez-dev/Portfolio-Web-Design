@@ -23,6 +23,17 @@ textarea{
 input, textarea{
     padding: 10px;
 }
+.about-professional:last-child a{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: bold;
+    color: #73483D;
+    text-decoration: none;
+}
+.about-professional:last-child a:hover{
+    color: #F49882;
+    transition: 1s;
+}
 
  /* Starting styles with mobile mode */
 
@@ -177,7 +188,7 @@ input, textarea{
     text-decoration: none;
  }
 
- /* Section - contato(contact form) */
+ /* Section - contato(contact form) 
  .form-contato{
      width: 80%;
      margin: 0 auto;
@@ -212,7 +223,7 @@ input, textarea{
  .form-contato p button:hover{
     background-color: #ffffff;
     transition: 1s;
- }
+ } */
 
  /* footer section */
  footer{
@@ -326,11 +337,12 @@ input, textarea{
         margin: 0 auto;
     }
 
-    /* Contato section */
+    /* Contato section 
     .contato{
         width: 100%;
         margin-top: 40px;
-    }
+    } */
+
     /* footer */
     footer {
         width: 100%;
@@ -456,7 +468,7 @@ input, textarea{
         text-align: left;
     }
 
-    /* contato section */
+    /* contato section 
     .contato{
         width: 70%;
         margin: 0 auto;
@@ -469,7 +481,7 @@ input, textarea{
     }
     .contato p button{
         height: 50px;
-    }
+    } */
 
     /* footer */
     footer{
